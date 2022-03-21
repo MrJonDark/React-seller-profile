@@ -1,0 +1,646 @@
+#root {
+    overflow-y: hidden;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+    box-shadow: none;
+}
+
+.table-striped>tbody>tr:nth-child(2n + 2)>td,
+.table-striped>tbody>tr:nth-child(2n + 2)>th {
+    background-color: #00cc7f1f;
+}
+
+.table-striped>tbody>tr:nth-child(2n + 1)>td,
+.table-striped>tbody>tr:nth-child(2n + 1)>th {
+    background-color: none;
+}
+
+.list_group {
+    list-style: none;
+    display: flex;
+}
+
+.closeNav {
+    position: absolute;
+    bottom: 9px;
+    width: 100%;
+}
+
+input,
+select {
+    height: 43px !important;
+    border: none !important;
+}
+
+.image-upload {
+    background: no-repeat center center;
+    background-size: contain !important;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    top: 0;
+    padding: 53px 139px 58px 162px;
+    z-index: 1;
+}
+
+.edtingimageSection {
+    position: absolute;
+    z-index: 2;
+    top: -14px;
+    width: 36%;
+    right: 0;
+    text-align: right;
+}
+
+.editingBtn {
+    margin: 0 -9px 0 13px;
+    background-color: #00cc7f8c;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.text-upload {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.alertForm {
+    animation-iteration-count: 1;
+    animation-duration: .8s;
+    animation-name: alert;
+    border-radius: 10px;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes alert {
+    1% {
+        background-color: #37f5ac;
+    }
+    25% {
+        background-color: #74ffca;
+    }
+    50% {
+        background-color: #b5fadf;
+    }
+    75% {
+        background-color: #ddfcf0;
+    }
+    100% {
+        background-color: #ffffff;
+    }
+}
+
+.list_group li {
+    cursor: pointer;
+    padding: 1px 10px;
+}
+
+.selected {
+    color: #00cc7f;
+}
+
+.profile_store {
+    box-shadow: unset;
+}
+
+.page-item.active .page-link {
+    background-color: #00cc7f !important;
+    border: 0.2px solid #00cc7f !important;
+}
+
+.page-link {
+    border-radius: 19px !important;
+    margin: 2px !important;
+    border: none !important;
+}
+
+.edit {
+    box-shadow: -2px 1px 0 #00cc7f;
+    width: 100% !important;
+    opacity: 1;
+}
+
+.subImages {
+    position: relative;
+    width: 120px;
+}
+
+.subImages span {
+    color: #eaeaea;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    z-index: 12;
+    transition: 0.3s;
+}
+
+.subImages span:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.subImages .mainImage:hover {
+    color: rgb(17, 240, 117);
+    cursor: pointer;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.logo {
+    width: 200px;
+}
+
+a {
+    color: #000000;
+}
+
+.signup_tap {
+    color: #000000;
+    font-weight: 600;
+    border: 0 !important;
+}
+
+.card_sign {
+    border: 0;
+    box-shadow: 0px 4px 34px -26px;
+}
+
+.card_sign ul li,
+.card_sign ul,
+.card_sign ul li a {
+    border: 0;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffffff #ffffff #fff;
+}
+
+.form-control {
+    background-color: #f7f7f7 !important;
+    border-radius: 6px !important;
+    border: 0 i !important;
+    color: #423f3f !important;
+}
+
+.tab-pane {
+    padding: 0px 50px;
+}
+
+.card-header-card {
+    border: 0 !important;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid #00cc7f;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin .6s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.vector_sign_up {
+    display: block;
+    margin: auto;
+}
+
+.btns-store {
+    width: 37%;
+}
+
+.btns_auth .appleBtn {
+    background-color: black;
+    color: white;
+}
+
+.btns_auth {
+    padding: 0 45px;
+}
+
+.btns_auth button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px !important;
+    margin-bottom: 15px;
+    padding: 9px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+}
+
+.spinner-body {
+    background-color: rgb(231 231 231 / 53%) !important;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+.hide-spinner {
+    display: none;
+}
+
+.spinner {
+    margin-top: 381px !important;
+    width: 4rem !important;
+    height: 4rem !important;
+    color: #00cc7f !important;
+    z-index: 10017;
+    position: fixed;
+    left: 46%;
+}
+
+.signout_btn {
+    background: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 6px;
+    color: #ed4b4b;
+    display: block;
+}
+
+.test_layer {
+    font-size: 14px;
+    padding: 0px 29px;
+    font-weight: 600;
+    margin-right: auto;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.remove_item {
+    border: 0;
+    background: none;
+    padding: 0;
+    color: #a7a7a7;
+}
+
+.add_item {
+    border: 0;
+    background: none;
+    padding: 0;
+    color: green;
+    margin: auto;
+    display: block;
+}
+
+.subImage_dev {
+    position: relative;
+    margin: auto;
+    width: 120px;
+}
+
+.input_field {
+    width: 501px;
+    height: 179px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 53px 139px 58px 162px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    position: relative;
+}
+
+.input_main {
+    margin: 8px 13px 0 12px;
+    padding: 10px 21px;
+    background-color: #00cc7f;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.qr_img_sign_up {
+    width: 77px;
+    height: 77px;
+}
+
+.buttons_admin {
+    background: #00cc7f;
+    color: white;
+}
+
+.table.table-hover {
+    border-collapse: collapse;
+}
+
+table-striped tbody tr:nth-of-type(odd) {
+    background-color: none !important;
+}
+
+.table-head th:nth-child(1) {
+    border-radius: 11px 0px 0px 11px
+}
+
+.table-head th:last-child {
+    border-radius: 0px 11px 11px 0px;
+}
+
+.table td,
+th {
+    border: none !important;
+}
+
+.table-head {
+    background: #00cc7f;
+    color: white;
+    border-radius: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 5px;
+    bottom: 5px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.table thead th {
+    vertical-align: middle !important;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 500;
+}
+
+.logo-store {
+    background-size: contain !important;
+}
+
+.toggle-status {
+    margin-right: 10px;
+}
+
+.activedot {
+    font-weight: 900;
+    color: #00cc7f;
+    font-size: 1.5rem;
+}
+
+input:checked+.slider {
+    background-color: #00cc7f;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #00cc7f;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(20px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.card_background {
+    box-shadow: 0px 0px 14.9px -7.9px rgb(0 0 0);
+    border-radius: 10px !important;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color 0.5s;
+    background-color: #f3f3f3 !important;
+}
+
+.navbar {
+    background: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a:hover {
+    background-color: #b1f3d8;
+    color: black !important;
+    text-decoration: none;
+}
+
+.hovered {
+    background-color: #a8f5d7;
+}
+
+.dropdown-container {
+    background: #eafff7;
+}
+
+.logoSidebar {
+    overflow: hidden;
+    border-radius: 50px;
+    width: 52px;
+}
+
+.logoSidebarInactive {
+    box-shadow: 0px 0px 21px -10px #3e3f3f;
+}
+
+.logoSidebarActive {
+    box-shadow: 0px 0px 21px -10px #00cc7f;
+}
+
+.head {
+    padding: 13px;
+    border-bottom: 4.1px solid #ebebeb;
+}
+
+.head .storeName {
+    font-weight: 700;
+}
+
+.sidenav a {
+    padding: 9px 9px 10px 20px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.edit_icon_cover {
+    position: absolute;
+    right: 38px;
+    top: 25px;
+    color: #00cc7f;
+    background: white;
+    width: 30px !important;
+    cursor: pointer;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 22px -7px black;
+}
+
+.edit_icon_logo {
+    position: absolute;
+    right: 17px;
+    bottom: 13px;
+    color: #00cc7f;
+    background: white;
+    width: 23px !important;
+    cursor: pointer;
+    height: 23px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 22px -7px black;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding-top: 0;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,169 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "type": "category",
+      "attributes": {
+        "name": "Automotive",
+        "name_en": "Automotive",
+        "name_ar": "أسفلت",
+        "featured": false,
+        "status": "active",
+        "cover": "https://dncjs8tqqv5w9.cloudfront.net/gz08ev6v1g0hfe4cxt2gbr3foz4f?response-content-disposition=inline%3B%20filename%3D%22close-up-of-electric-lamp-against-black-background-248747.jpg%22%3B%20filename%2A%3DUTF-8%27%27close-up-of-electric-lamp-against-black-background-248747.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYW2KMM2PEDMPFECM%2F20210314%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210314T120725Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=2c02a064da4115977546c3ba57b73c27a83f206ef9a069975b9a88c2cfc4b24b",
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    },
+    {
+      "id": "3",
+      "type": "category",
+      "attributes": {
+        "name": "Electronics",
+        "name_en": "Electronics",
+        "name_ar": "إلكترونيات",
+        "featured": false,
+        "status": "active",
+        "cover": "https://dncjs8tqqv5w9.cloudfront.net/b002cprr47tt1vnqah4r80updx7j?response-content-disposition=inline%3B%20filename%3D%22photography-of-laptop-computer-camera-smartphone-headphones-705164.jpg%22%3B%20filename%2A%3DUTF-8%27%27photography-of-laptop-computer-camera-smartphone-headphones-705164.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYW2KMM2PEDMPFECM%2F20210314%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210314T120725Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=bf3d99a0387cc7acf64723e73b1ffb5b39aa9e0784810fce12ae7b0887ce183c",
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    },
+    {
+      "id": "8",
+      "type": "category",
+      "attributes": {
+        "name": "Sports",
+        "name_en": "Sports",
+        "name_ar": "رياضة",
+        "featured": false,
+        "status": "active",
+        "cover": "https://dncjs8tqqv5w9.cloudfront.net/pvxk7b7i9pj47dsubbvmsia61c63?response-content-disposition=inline%3B%20filename%3D%22sport-1201014_640.jpg%22%3B%20filename%2A%3DUTF-8%27%27sport-1201014_640.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYW2KMM2PEDMPFECM%2F20210314%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210314T120725Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=0fd2d324740fd3d09d588063973322395f7c2ee929a37a42816710325ffd54d5",
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    },
+    {
+      "id": "7",
+      "type": "category",
+      "attributes": {
+        "name": "Style",
+        "name_en": "Style",
+        "name_ar": "موضة",
+        "featured": true,
+        "status": "active",
+        "cover": "https://dncjs8tqqv5w9.cloudfront.net/ywcq3khgg1gqdioblttjk3nn3du0?response-content-disposition=inline%3B%20filename%3D%22store-984393_1280.jpg%22%3B%20filename%2A%3DUTF-8%27%27store-984393_1280.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYW2KMM2PEDMPFECM%2F20210314%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210314T120725Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=d928d2db6343c9861df737f6beaa75b7a4b946a8c0a931fadbb7d24b338e0bee",
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    },
+    {
+      "id": "5",
+      "type": "category",
+      "attributes": {
+        "name": "Home",
+        "name_en": "Home",
+        "name_ar": "منزل",
+        "featured": false,
+        "status": "active",
+        "cover": "https://dncjs8tqqv5w9.cloudfront.net/9xc9jr4yqm7hup7z9v4ovfm328iw?response-content-disposition=inline%3B%20filename%3D%22apartment-architecture-art-books-276724.jpg%22%3B%20filename%2A%3DUTF-8%27%27apartment-architecture-art-books-276724.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYW2KMM2PEDMPFECM%2F20210314%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210314T120725Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ccb8bb41b1ce4b8260aeeb5a1f414ea35b12e7c32f958c05ec7a1cabf87ebeab",
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    },
+    {
+      "id": "4",
+      "type": "category",
+      "attributes": {
+        "name": "Nutriments",
+        "name_en": "Nutriments",
+        "name_ar": "أغذية",
+        "featured": false,
+        "status": "active",
+        "cover": "https://dncjs8tqqv5w9.cloudfront.net/t9qlf7pbas7uj45z1jms84h3k81t?response-content-disposition=inline%3B%20filename%3D%22woman-pouring-juice-on-glass-3184192.jpg%22%3B%20filename%2A%3DUTF-8%27%27woman-pouring-juice-on-glass-3184192.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYW2KMM2PEDMPFECM%2F20210314%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210314T120725Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=abb48ecd86a3eb7eb1ca0493149ab85a374d083de84609ec2731d2eb60f46c4e",
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    },
+    {
+      "id": "2",
+      "type": "category",
+      "attributes": {
+        "name": "Hobbies",
+        "name_en": "Hobbies",
+        "name_ar": "هوايات",
+        "featured": false,
+        "status": "active",
+        "cover": "https://dncjs8tqqv5w9.cloudfront.net/689k4c95aexiw4eng0q6b2bqttls?response-content-disposition=inline%3B%20filename%3D%22flat-lay-composition-with-empty-paper-3773836.jpg%22%3B%20filename%2A%3DUTF-8%27%27flat-lay-composition-with-empty-paper-3773836.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYW2KMM2PEDMPFECM%2F20210314%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210314T120725Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=c29280f8d617ca4af0de8e169d29ca6901217aa184dbfdd86069903e2d8b54cc",
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    },
+    {
+      "id": "44",
+      "type": "category",
+      "attributes": {
+        "name": "Health & Beauty",
+        "name_en": "Health & Beauty",
+        "name_ar": "الصحة و الجمال",
+        "featured": false,
+        "status": "active",
+        "cover": null,
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    },
+    {
+      "id": "11",
+      "type": "category",
+      "attributes": {
+        "name": "Mobiles & Tablets",
+        "name_en": "Mobiles & Tablets",
+        "name_ar": "موبايلات و تابلت",
+        "featured": false,
+        "status": "active",
+        "cover": null,
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    },
+    {
+      "id": "6",
+      "type": "category",
+      "attributes": {
+        "name": "Kids",
+        "name_en": "Kids",
+        "name_ar": "أطفال",
+        "featured": false,
+        "status": "active",
+        "cover": "https://dncjs8tqqv5w9.cloudfront.net/1fy68ixq8hj60c2l2fal4y8d8afm?response-content-disposition=inline%3B%20filename%3D%22bridge-child-children-fashion-191034.jpg%22%3B%20filename%2A%3DUTF-8%27%27bridge-child-children-fashion-191034.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYW2KMM2PEDMPFECM%2F20210314%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210314T120725Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=46b6ae5835e21c47dce15b3e05232e3932cf732237a0a7c91a2d7e041f8ca9d9",
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    },
+    {
+      "id": "10",
+      "type": "category",
+      "attributes": {
+        "name": "Pets",
+        "name_en": "Pets",
+        "name_ar": "حيوانات أليفة",
+        "featured": false,
+        "status": "active",
+        "cover": null,
+        "sub_categories": null,
+        "sellers": null
+      },
+      "relationships": {}
+    }
+  ]
+}

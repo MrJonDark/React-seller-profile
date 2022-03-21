@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.zux.shopless_merchant_app",
+      "sha256_cert_fingerprints": [
+        "CF:7D:00:A6:AF:1D:88:AB:CF:0C:5C:94:CF:15:60:37:2E:4B:56:3B:D4:37:61:DC:4A:4F:14:B6:BD:0B:03:EC"
+      ]
+    }
+  }
+]
